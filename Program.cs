@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalculatorConsoleApp
+﻿namespace CalculatorConsoleApp
 {
     class Program
     {
@@ -108,6 +106,7 @@ namespace CalculatorConsoleApp
             return a / b;
         }
 
+        // fungsi untuk menambahkan tanda kurung apabila nilai operand negatif
         static string FormatBracket(double x)
         {
             string y = Convert.ToString(x);
