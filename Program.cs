@@ -1,4 +1,6 @@
-﻿namespace CalculatorConsoleApp
+using System;
+
+namespace CalculatorConsoleApp
 {
     class Program
     {
